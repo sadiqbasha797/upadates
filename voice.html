@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+            body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+background: #000000;  
+background: -webkit-linear-gradient(to right, #434343, #000000); 
+background: linear-gradient(to right, #434343, #000000); 
+}
+.container{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	align-items: space-around;
+	justify-content: center;
+    text-align: center;
+}
+.userInput{
+	display: flex;
+	justify-content: center;    
+}
+input{
+	margin: 10px;
+	height: 35px;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
+    text-align: center;
+}
+button{
+	width: 150px;
+	height: 40px;
+	margin: 25px auto 0px auto;
+	font-family: arimo;
+	font-size: 1.1rem;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	background: #616161; 
+background: -webkit-linear-gradient(to right, #9bc5c3, #616161); 
+background: linear-gradient(to right, #9bc5c3, #616161); 
+
+}
+.btn{
+    text-align: center;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reset-password</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 style="color:bisque">ENTER EMERGENCY VOICE CODE</h1><br>
+     <div class="userInput">
+         <input type="text" placeholder="ENTER CODE" required>
+         </div>
+         <div class="userInput">
+         <input type="text" placeholder="CONFIRM CODE" required>
+     </div>
+     <div>
+        <a href="update.html"><button>UPDATE</button></a>
+     </div>
+     </div>
+</body>
+</html>
